@@ -1,0 +1,78 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+*{
+    margin: auto;
+}
+body{
+    background-color:#a4e0ca;
+    font-family:'Bebas';
+}
+header{
+    background-image: linear-gradient(#42ce42, #33a031, #256d1b, #174919);
+    color: #ffffff;
+}
+header > h1{
+    text-align: center;
+    padding: 2.5%;
+}
+header > h4{
+    padding: 0px 10%;
+    text-align: center;
+    
+}
+nav{
+   padding: 2.5% 0%;
+}
+nav > a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0% 2%;
+}
+main{
+    background-color: #ffffff;
+    margin: 0px 10% 10px 10%;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 0px 0px 10px 10px;
+}
+section > p{
+    text-indent: 30px;
+    padding: 20px;
+}
+section > h1{
+    font-family:'idroid';
+    text-align: left;
+    color: #174919;
+}
+section > h3{
+    font-family: 'idroid';
+    color: #174919;
+    background-image: linear-gradient(90deg, #3fc243b6, #87d18a81, #f1f5f159);
+}
+
+#bugs{
+    width: 40%;
+    height: 40%;
+    padding: 0 30%
+    
+}
+div{
+    display: block;
+    background-color: #174919;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: #174919;
+    text-align: center;
+    color: white;
+    margin: auto;
+}

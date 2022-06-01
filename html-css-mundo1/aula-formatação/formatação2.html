@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Outras formatações</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Essa formatação é por causa da tag CODE.</p>
+    <code>
+        num = int(input('Digite um número: '))
+        if num % 2 == 0:
+            print('O número é par.')
+        else:
+            print('O número é ímpar.')
+    </code> .Usando apenas a tag CODE, a identação do código não segue o padrão correto. <p>Para isso usamos a tag PRE junto com a tag CODE.</p>
+    <pre>
+<code> 
+num = int(input('Digite um número: '))
+if num % 2 == 0:
+print('O número é par.')
+else:
+print('O número é ímpar.')
+</code>
+    </pre><hr>
+<h2>Citações</h2>
+<p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q> A tag usada para colocar entre aspas é a tag Q.</p><hr>
+<h2>Citações completas</h2>
+<p>Para citações de parágrafos inteiro, usamos a tag BLOCKQUOTE.</p>
+<blockquote cite="https://blog.poemese.com/frases-de-livros/">Palavras são, na minha não tão humilde opinião, nossa inesgotável fonte de magia. Capazes de ferir e de curar.</blockquote>
+<p>Como pode ser visto, a citação é deslocada para dar destaque.</p><hr>
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="Hiper Text Marcap Language">html</abbr> e <abbr title="Cascading Style Sheets">css</abbr> e estou adorando.</p>
+<p>Essas marcações embaixo do html e css são feitas pela tag ABBR e explicam o que significa a abreviação.</p><hr>
+<h2>Texto invertido</h2>
+<p>Eu estou adorando estudar html.</p>
+<p><bdo dir="rtl">Eu estou adorando estudar html.</bdo></p>
+<p>Inverter o texto é feito com a tag BDO com o parâmetro dir="rtl" ou "ltr"</p><hr>
+</body>
+</html>
